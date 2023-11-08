@@ -1,3 +1,6 @@
+테이블 이름 : TableSql;
+
+
 create table userMember (
 	member_id varchar2(20) constraint member_id_pk primary key,
 	member_pwd varchar2(20),
