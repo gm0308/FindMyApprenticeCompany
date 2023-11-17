@@ -45,7 +45,7 @@ public class QuitServlet extends HttpServlet {
 				msg = user.getMemberName() + "님의 회원정보 삭제가 실패했습니다.";
 			}
 			session.setAttribute("quit", msg);
-			response.sendRedirect("/edu/member/quitResult.jsp");
+			response.sendRedirect("/InsideMind/member/quitResult.jsp");
 		}
 		
 	}

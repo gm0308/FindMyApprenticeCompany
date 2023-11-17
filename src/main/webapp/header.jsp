@@ -58,13 +58,13 @@
 <% 
 					if(login == null){
 %>
-						<a href="/edu/login/login.jsp" id="login"> 로그인 </a>
-						<a href="/edu/QuitServlet"id= "quit"> 회원탈퇴 </a>
+						<a href="/InsideMind/login/login.jsp" id="login"> 로그인 </a>
+						<a href="/InsideMind/QuitServlet"id= "quit"> 회원탈퇴 </a>
 <% 
 					}else{
 %>
-						<a href="/edu/logout" id="logout"> 로그아웃 (<%= login.getMemberId() %>)</a>
-						<a href="/edu/QuitServlet"id= "quit"> 회원탈퇴 </a>
+						<a href="/InsideMind/logout" id="logout"> 로그아웃 (<%= login.getMemberId() %>)</a>
+						<a href="/InsideMind/QuitServlet"id= "quit"> 회원탈퇴 </a>
 <%
 					}
 %>	

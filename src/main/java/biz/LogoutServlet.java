@@ -28,7 +28,7 @@ public class LogoutServlet extends HttpServlet {
 		
 		if(vo != null) {
 			session.removeAttribute("loginOK");
-			response.sendRedirect("/edu/index.jsp");
+			response.sendRedirect("/InsideMind/index.jsp");
 		}
 	}
 }
