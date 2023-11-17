@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>오 게시판</title>
+<title>임시 프로젝트</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
