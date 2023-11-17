@@ -47,13 +47,15 @@
 				<div>24 Atlantic Ave, Brooklyn, NY 11201</div>
 				<div>ⓒ 2023 Inc. All rights reserved</div>
 				<div class="footer-icons">
-					<img src="images/logo-paypal.png" alt="logo-paypal">
-					<img src="images/logo-visa.png" alt="logo-visa">
+					<img src="images/paypal.png" alt="logo-paypal">
+					<img src="images/visa.png" alt="logo-visa">
 				</div>
 			</div>
 			<hr>
 			<div class="footer-logos">
-				<img src="/images/logo.png" alt="logo-footer" width="100px" height="100px">
+				<div>
+					<img src="images/logo.png" alt="logo-footer">
+				</div>
 				<div class="footer-bottom">
 					<ul class="footer-a">
 						<li>APPS</li>
@@ -62,9 +64,9 @@
 						<li>LIFESTYLE</li>
 					</ul>
 					<div class="footer-link">
-						<img src="images/logo-f.png" alt="logo-f">
-						<img src="images/logo-tw.png" alt="logo-tw">
-						<img src="images/logo-ins.png" alt="logo-ins">
+						<img src="images/facebook.png" alt="logo-f">
+						<img src="images/x.png" alt="logo-x">
+						<img src="images/instagram.png" alt="logo-ins">
 					</div>
 				</div>
 			</div>
