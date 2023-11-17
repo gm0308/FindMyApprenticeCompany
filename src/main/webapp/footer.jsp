@@ -64,8 +64,8 @@
 						<li>LIFESTYLE</li>
 					</ul>
 					<div class="footer-link">
-						<img src="images/facebook.png" alt="logo-f">
-						<img src="images/x.png" alt="logo-x">
+						<img src="images/facebook.png" alt="logo-f"> &nbsp;
+						<img src="images/x.png" alt="logo-x">&nbsp;
 						<img src="images/instagram.png" alt="logo-ins">
 					</div>
 				</div>

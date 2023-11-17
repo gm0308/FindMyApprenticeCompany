@@ -115,11 +115,23 @@ footer {
 	float: left;
 }
 .footer-link > img {
+	margin-left: 15px;
 	width: 40px;
 	float: left;
+	margin-top: 50px;
 }
 .footer-bottom {
 	width: 800px;
 	float: left;
 	height: 150px;
+}
+.row{
+	position:relative;
+	float:right;
+	margin-right: 30px;
+	margin-top:-60px;
+}
+.side_menu > a {
+	margin-left: 15px;
+	color:#fff;
 }
