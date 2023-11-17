@@ -51,7 +51,19 @@
 					<img src="images/logo-visa.png" alt="logo-visa">
 				</div>
 			</div>
-			<div>
+			<div class="footer-logos">
+				<img src="images/logo-footer.png" alt="logo-footer">
+				<ul>
+					<li>APPS</li>
+					<li>REVIEWS</li>
+					<li>ADVENTURE</li>
+					<li>LIFESTYLE</li>
+				</ul>
+				<div class="footer-link">
+					<img src="images/logo-f.png" alt="logo-f">
+					<img src="images/logo-tw.png" alt="logo-tw">
+					<img src="images/logo-ins.png" alt="logo-ins">
+				</div>
 			</div>
 		</div>
 	</footer>

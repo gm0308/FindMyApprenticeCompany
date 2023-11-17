@@ -71,3 +71,8 @@ header > div {
 .menu > ul > li > ul >li:hover {
 	background-color: #9ffbff;
 }
+footer {
+	width: 100%;
+	background-color: #F1F6F9;
+	color: #9BA4B5;
+}
