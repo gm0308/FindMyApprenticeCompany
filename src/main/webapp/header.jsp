@@ -1,3 +1,4 @@
+<%@page import="vo.MemberVO" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -48,6 +49,26 @@
 					</ul>
 					</li>
 				</ul>
+			</div>
+			<div class="row">
+				<div class="side_menu">
+<% 
+					MemberVO login = (MemberVO)session.getAttribute("loginOK");
+%>
+<% 
+					if(login == null){
+%>
+						<a href="/edu/login/login.jsp" id="login"> 로그인 </a>
+						<a href="/edu/QuitServlet"id= "quit"> 회원탈퇴 </a>
+<% 
+					}else{
+%>
+						<a href="/edu/logout" id="logout"> 로그아웃 (<%= login.getMemberId() %>)</a>
+						<a href="/edu/QuitServlet"id= "quit"> 회원탈퇴 </a>
+<%
+					}
+%>	
+				</div>
 			</div>
 		</div>
 	</header>
