@@ -6,6 +6,13 @@
 	text-decoration: none;
 	list-style: none;
 }
+.main-text{
+	height:450px;
+	width:100%;
+	text-align:center;
+	line-height:450px;
+	font-size:50px;
+}
 .wrapper {
 	width: 100%;
 	height: 100px;
@@ -133,5 +140,11 @@ footer {
 }
 .side_menu > a {
 	margin-left: 15px;
-	color:#fff;
+	text-align:center;
+	color:#222;
+	border: 1px solid #BCC4C3;
+	background-color: #BCC4C3;
+	border-radius:15px;
+	padding:10px;
+	font-weight:bold;
 }

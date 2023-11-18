@@ -9,7 +9,7 @@
 </head>
 <body>
 	<%@ include file="/header.jsp" %>
-	<p> 여기에 오신 것을 환영합니다. </p>
+	<p class="main-text"> 여기에 오신 것을 환영합니다. </p>
 	<%@ include file="/footer.jsp" %>
 	<script src="/js/jquery-2.2.3.min.js"></script>
 	<script src="/js/script.js"></script>
