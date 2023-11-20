@@ -16,12 +16,11 @@
 			</div>
 			<div class="menu">
 				<ul>
-					<li><a href="#">메인메뉴1</a>
+					<li><a href="#">회사소개</a>
 					<ul>
-						<li><a href="#">서브메뉴1</a></li>
-						<li><a href="#">서브메뉴2</a></li>
-						<li><a href="#">서브메뉴3</a></li>
-						<li><a href="#">서브메뉴4</a></li>
+						<li><a href="#">지도</a></li>
+						<li><a href="#">성남 지역</a></li>
+						<li><a href="#">기타 지역</a></li>
 					</ul>
 					</li>
 					<li><a href="#">메인메뉴2</a>
@@ -29,7 +28,6 @@
 						<li><a href="#">서브메뉴1</a></li>
 						<li><a href="#">서브메뉴2</a></li>
 						<li><a href="#">서브메뉴3</a></li>
-						<li><a href="#">서브메뉴4</a></li>
 					</ul>
 					</li>
 					<li><a href="#">메인메뉴3</a>
@@ -37,7 +35,6 @@
 						<li><a href="#">서브메뉴1</a></li>
 						<li><a href="#">서브메뉴2</a></li>
 						<li><a href="#">서브메뉴3</a></li>
-						<li><a href="#">서브메뉴4</a></li>
 					</ul>
 					</li>
 					<li><a href="#">메인메뉴4</a>
@@ -45,7 +42,6 @@
 						<li><a href="#">서브메뉴1</a></li>
 						<li><a href="#">서브메뉴2</a></li>
 						<li><a href="#">서브메뉴3</a></li>
-						<li><a href="#">서브메뉴4</a></li>
 					</ul>
 					</li>
 				</ul>

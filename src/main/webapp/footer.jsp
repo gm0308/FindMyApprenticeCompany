@@ -34,8 +34,8 @@
 				<ul class="item4">
 					<h4>SUBSCIRBE</h4>
 					<li>
-						<p>Enter your email to get notified about<br>
-						our new solutions</p>
+						<p>Enter your email to get notified<br>
+						about our new solutions</p>
 					</li>
 					<li class="footer-email">
 						<input type="email" placeholder="Email">
