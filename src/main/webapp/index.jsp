@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>임시 프로젝트</title>
-<link rel="stylesheet" href="style.css">
+
+<title>Insert title here</title>
 </head>
 <body>
 	<%@ include file="/header.jsp" %>
