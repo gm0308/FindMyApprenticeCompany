@@ -36,7 +36,7 @@ header > div {
 }
 .menu {
 	position: absolute;
-	left: 600px;
+	left: 650px;
 	padding-top: 50px;
 	margin-top: -150px;
 	height: 100px;
@@ -88,8 +88,7 @@ header > div {
     overflow: hidden;
 }
 #slide1>ul{
-    width: 100% ;
-    font-size: 0;
+ 	font-size: 0;
 }
 #slide1>ul>li{
     display: inline-block;

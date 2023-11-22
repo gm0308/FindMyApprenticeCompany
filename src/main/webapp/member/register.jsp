@@ -59,12 +59,6 @@
 			<label><b>이름</b></label><br>	
 			<input type="text" placeholder="본명을 적으세요." name="name">
 			
-			<label><b>주소</b></label><br>
-			<input type="text" placeholder="도로명으로 입력하세요." name="addr">
-			
-			<label><b>나이</b></label><br>
-			<input type="number" placeholder="나이를 속이지 마세요." name="age">
-			
 			<input type= "submit" value="가입"> &nbsp; &nbsp;
 		</div>
 	</form>

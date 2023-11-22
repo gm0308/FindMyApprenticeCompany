@@ -4,8 +4,6 @@ public class MemberVO {
 	private String memberId;
 	private String memberPwd;
 	private String memberName;
-	private String memberAddr;
-	private int memberAge;
 	
 	public MemberVO()
 	{
@@ -39,25 +37,5 @@ public class MemberVO {
 	public String getMemberName()
 	{
 		return memberName;
-	}
-	
-	public void setMemberAddr(String memberAddr)
-	{
-		this.memberAddr = memberAddr;
-	}
-	
-	public String getMemberAddr()
-	{
-		return memberAddr;
-	}
-	
-	public void setMemberAge(int memberAge)
-	{
-		this.memberAge = memberAge;
-	}
-	
-	public int getMemberAge()
-	{
-		return memberAge;
 	}
 }
