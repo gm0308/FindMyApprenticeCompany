@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>오 게시판</title>
+<title>FMAC</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>

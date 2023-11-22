@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>FMAC</title>
 <style>
 	h2{
 		text-align:center;
