@@ -12,7 +12,7 @@
 	<header id="header">
 		<div class="wrapper">
 			<div class="logo">
-				<img src="images/company.logo.png" alt="logo" width="100" height="100">
+				<img src="images/FMAC.png" alt="logo" width="100" height="100">
 			</div>
 			<div class="menu">
 				<ul>
