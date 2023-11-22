@@ -77,23 +77,14 @@ header > div {
 	background-color: #9ffbff;
 }
 #index_01{
-    width: 1200px;
-    height: 400px;
-    border: 1px solid dimgrey;
+    width: 1500px;
+    height: 500px;
     margin: 0 auto;
 }
-#header1{
-    height: 100px;
-    border-bottom: 1px solid dimgrey;
-    box-sizing: border-box;
-    text-align: center;
-    line-height: 100px;
-    font-size: 1.5rem;
-}
 #slide1{
-    height: 300px;
+	margin-top : 20px; 
+    height: 500px;
     overflow: hidden;
-    border-bottom: 1px solid dimgrey;
 }
 #slide1>ul{
     width: 3600px;
@@ -203,4 +194,15 @@ footer > div > div > ul > li{
 	border-radius:15px;
 	padding:10px;
 	font-weight:bold;
+}
+.explan-us {
+	text-align : center;
+	height : 200px;
+}
+.explan-us > h1 {
+	margin-top : 30px; 
+}
+.explan-us > p{
+	font-size : 17px;
+	margin-top : 20px; 
 }
