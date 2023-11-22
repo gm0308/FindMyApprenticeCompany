@@ -7,14 +7,14 @@ $(this).children("ul").stop().slideUp("fast");
 }
 );
 
-// setInterval(function(){
-//     $('.gallery  > div').delay(2500);
-//     $('.gallery  > div').animate({marginLeft: "-3000px"})
-//     $('.gallery  > div').delay(2500);
-//     $('.gallery  > div').animate({marginLeft: "-6000px"})
-//     $('.gallery  > div').delay(2500);
-//     $('.gallery  > div').animate({marginLeft: "0px"})
-// });
+setInterval(function(){
+    $('#slide1>ul').delay(2500);
+    $('#slide1>ul').animate({marginLeft: "-1500px"})
+    $('#slide1>ul').delay(2500);
+    $('#slide1>ul').animate({marginLeft: "-3000px"})
+    $('#slide1>ul').delay(2500);
+    $('#slide1>ul').animate({marginLeft: "0px"})
+});
 
 // 지도 javaScript
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
