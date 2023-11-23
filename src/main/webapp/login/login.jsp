@@ -45,19 +45,19 @@
 </style>
 </head> 
 <body>
-	<h2> 로그인 화면에 오신것을 환영합니다. </h2>
+	<h2> FMAC </h2>
 
 	<form action="/InsideMind/login" method="post">
 		<div class="login_container">
-			<label><b>아이디</b></label>
-			<input type="text" placeholder="아이디를 입력하세요." name="id">
+			<label><b>ID</b></label>
+			<input type="text" placeholder="Please enter your ID" name="id">
 				
-			<label><b>패스워드</b></label>
-			<input type="password" placeholder="비밀번호를 입력하세요" name="pwd">
+			<label><b>Password</b></label>
+			<input type="password" placeholder="Please enter a password" name="pwd">
 			
-			<input type="submit" value="로그인">
-			<a href="/InsideMind/member/register.jsp"> 회원가입 </a>
-			<a href="/InsideMind/index.jsp" style="float:right"> 메인화면 </a>
+			<input type="submit" value="Sign up">
+			<a href="/InsideMind/member/register.jsp"> log in </a>
+			<a href="/InsideMind/index.jsp" style="float:right"> menu </a>
 		</div>
 	</form>
 </body>
