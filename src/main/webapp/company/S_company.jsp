@@ -10,7 +10,6 @@
 </head>
 <body>
 <%@ include file="../header.jsp" %>
-
 		<div class="container">
         <div class="content">
             <h1 id="container_title">Seongnam Companys</h1>
@@ -113,17 +112,7 @@
                 </div>
             </div>
         </div>
-        <div class="expalanation">
-            <h1 id="container_title">expalanation</h1>
-            <div class="exp_background">
-                <img src="/InsideMind/images/exp_background.jpg" alt="exp_background">
-                <div class="exp_text">
-                    <h2 id="exp_title">저희는 문성민을 지지합니다</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus doloribus culpa consequatur animi optio, 
-                    tenetur harum iure, eius neque pariatur quam labore incidunt voluptas, porro alias illum fuga commodi architecto!</p>
-                </div>
-            </div>
-        </div>
     </div>
+    <%@ include file="../footer.jsp" %>
 </body>
 </html>

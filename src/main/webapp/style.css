@@ -151,8 +151,9 @@ footer > div > div > ul > li{
 	overflow: hidden;
 }
 .footer-logos> div:nth-child(1) > img {
-	width: 32px;
-	height: 32px;
+	margin-top: 25px;
+	width: 100px;
+	height: 100px;
 	overflow: hidden;
 }
 .footer-a > li {

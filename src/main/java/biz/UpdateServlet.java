@@ -32,16 +32,16 @@ public class UpdateServlet extends HttpServlet {
     	MemberDAO dao = new MemberDAO();
     	int n = 0;
     	
-    	id = request.getParameter("member_id");
-    	pwd = request.getParameter("member_pwd");
-    	name = request.getParameter("member_name");
+    	id = request.getParameter("id");
+    	pwd = request.getParameter("pwd");
+    	name = request.getParameter("name");
     	
     	n = dao.updateMember(id, pwd, name);
     	
     	if(n>0)
-    		response.sendRedirect("/member/memberList.jsp");
+    		response.sendRedirect("/InsideMind/member/memberList.jsp");
     	else
-    		out.print("<script> history.back() </script>");
+    		out.print("<script> alert('회원수정이 실패되었습니다.'); history.back(); </script>");
 	}
 
 }

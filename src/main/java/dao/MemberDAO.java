@@ -123,7 +123,8 @@ public class MemberDAO{
 			}
 			return result;
 		}
-		public int updateMember(String pwd, String id, String name) {
+		
+		public int updateMember(String id, String pwd, String name) {
 			int n = 0;
 			
 			Connection conn = null;
@@ -133,9 +134,9 @@ public class MemberDAO{
 			conn = jdbcUtil.getConnection();
 			try {
 				pstmt = conn.prepareStatement(sql);
-				pstmt.setString(1, pwd);
-				pstmt.setString(2, id);
-				pstmt.setString(3, name);
+				pstmt.setString(1,pwd);
+				pstmt.setString(2, name);
+				pstmt.setString(3, id);
 				n = pstmt.executeUpdate();
 				
 			}catch (SQLException e) {

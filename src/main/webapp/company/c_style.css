@@ -11,50 +11,12 @@ html {
 }
 .container {
     width: 100%;
+    margin-bottom: 15%;
 }
 #container_title {
     text-align: center;
     font-size: 48px;
 }
-.slide {
-    width: 1200px;
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-}
-.slide > div {
-    width: 3600px;
-    height: 300px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 0;
-    animation: slide 10s linear infinite;
-}
-@keyframes slide {
-    0% {
-        left: 0;
-    }
-    30% {
-        left: 0;
-    }
-    35% {
-        left: -1200px;
-    }
-    65% {
-        left: -1200px;
-    }
-    70% {
-        left: -2400px;
-    }
-    95% {
-        left: -2400px;
-    }
-    100% {
-        left: 0;
-    }
-}
-
 .items {
     width: 100%;
     height: 600px;
@@ -145,30 +107,4 @@ h1 {
 }
 .my-btn-class-47:hover::after { 
     opacity: 0%;
-}
-.expalanation {
-	margin-top : 20%;
-    position: relative;
-}
-.exp_background > img {
-    width: 100%;
-}
-.exp_text {
-    position: absolute;
-    top: 28%;
-    width: 1500px;
-    height: 500px;
-    margin-left: 10%;
-    text-align: center;
-    background-color: black;
-    color: white;
-    opacity: 0.5;
-}
-#exp_title {
-    font-size: 32px;
-    margin-top: 200px;
-}
-.exp_text > p {
-    font-size: 20px;
-    margin-top: 20px;
 }

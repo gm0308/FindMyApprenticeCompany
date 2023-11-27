@@ -54,7 +54,7 @@
 			<hr>
 			<div class="footer-logos">
 				<div>
-					<img src="/InsideMind/images/logo.png" alt="logo-footer">
+					<img src="/InsideMind/images/FMAC.png"alt="logo-footer">
 				</div>
 				<div class="footer-bottom">
 					<ul class="footer-a">

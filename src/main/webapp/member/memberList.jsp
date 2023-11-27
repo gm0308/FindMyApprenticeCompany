@@ -35,7 +35,7 @@
 %>
 	</table>
 	<br><br>
-	<a href = "./index.jsp"> 처음 화면</a>
+	<a href = "../index.jsp"> 처음 화면</a>
 	
 
 

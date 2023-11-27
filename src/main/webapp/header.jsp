@@ -33,16 +33,12 @@
 			<div class="menu">
 				<ul>
 					<li><a href="/InsideMind/map/map.jsp">지도</a></li>
-					<li><a href="#">성남 지역</a></li>
-					<li><a href="#">기타 지역</a></li>
-		
-					</li>
-					
+					<li><a href="/InsideMind/company/S_company.jsp">성남 지역</a></li>
+					<li><a href="/InsideMind/company/etc_company.jsp"">기타 지역</a></li>	
 				</ul>
 			</div>
 			<div class="row">
 				<div class="side_menu">
-
 <% 
 					if(login == null){
 %>
