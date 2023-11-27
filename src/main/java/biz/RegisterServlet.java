@@ -16,7 +16,7 @@ import vo.MemberVO;
 /**
  * Servlet implementation class RegisterServlet
  */
-@WebServlet("/RegisterServlet")
+@WebServlet("/register")
 public class RegisterServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -24,7 +24,7 @@ public class RegisterServlet extends HttpServlet {
         super();
  
     }
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
@@ -49,7 +49,7 @@ public class RegisterServlet extends HttpServlet {
 				out.println("<script> alert('회원가입에 성공했습니다.'); </script>");
 			}
 			
-			response.sendRedirect("/index.jsp");
+			response.sendRedirect("/InsideMind/index.jsp");
 			}
 		
 		}

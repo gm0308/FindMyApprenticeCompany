@@ -224,3 +224,66 @@ footer > div > div > ul > li{
 	font-size : 17px;
 	margin-top : 20px; 
 }
+
+/* 세로 드랍메뉴*/
+	#side_nav {
+        text-align: center;
+        margin-top: 20%;
+    }
+    #side_nav li {
+        margin-top: 10%;
+    }
+    .ham_label {
+        margin-left: 94.6%;
+        background-color: rgba(1, 1, 1, 0.7);
+        z-index: 20;
+        top: -98%;
+    }
+    input[id="hamburger_icon"] {
+        opacity: 0;
+    }
+    input[id="hamburger_icon"] + label {
+        position: relative;
+        display: block;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+    input[id="hamburger_icon"] + label > span {
+        position: absolute;
+        display: block;
+        width: 45%;
+        height: 1.2px;
+        margin-left: 28%;
+        background: #fff;
+        z-index: 10;
+    }
+    input[id="hamburger_icon"] + label > span:nth-child(1) {
+        margin-top: 25%;
+    }
+    input[id="hamburger_icon"] + label > span:nth-child(2) {
+        margin-top: 40%;
+        transform: translateY(-50%);
+    }
+    input[id="hamburger_icon"] + label > span:nth-child(3) {
+        margin-top: 50%;
+    }
+    input[id="hamburger_icon"] + label > span:nth-child(4) {
+        margin-top: 65%;
+    }
+    #hamburger_icon + label + #header {
+        margin-left: 100%;
+        position: fixed;
+        width: 100px;
+        height: 100%;
+        background: rgba(254, 80, 0, 0.6);
+        top: 0;
+        padding: 60px 25px 25px;
+        box-sizing: border-box;
+        z-index: 15;
+        transition: all 0.35s;
+    }
+    #hamburger_icon:checked + label + #header {
+        transition: all 0.45s;
+        transform: translateX(-100%);
+    }

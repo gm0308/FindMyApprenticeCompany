@@ -47,14 +47,14 @@
 				<div>24 Atlantic Ave, Brooklyn, NY 11201</div>
 				<div>ⓒ 2023 Inc. All rights reserved</div>
 				<div class="footer-icons">
-					<img src="images/paypal.png" alt="logo-paypal">
-					<img src="images/visa.png" alt="logo-visa">
+					<img src="/InsideMind/images/paypal.png" alt="logo-paypal">
+					<img src="/InsideMind/images/visa.png" alt="logo-visa">
 				</div>
 			</div>
 			<hr>
 			<div class="footer-logos">
 				<div>
-					<img src="images/logo.png" alt="logo-footer">
+					<img src="/InsideMind/images/logo.png" alt="logo-footer">
 				</div>
 				<div class="footer-bottom">
 					<ul class="footer-a">
@@ -64,9 +64,9 @@
 						<li>LIFESTYLE</li>
 					</ul>
 					<div class="footer-link">
-						<img src="images/facebook.png" alt="logo-f"> &nbsp;
-						<img src="images/x.png" alt="logo-x">&nbsp;
-						<img src="images/instagram.png" alt="logo-ins">
+						<img src="/InsideMind/images/facebook.png" alt="logo-f"> &nbsp;
+						<img src="/InsideMind/images/x.png" alt="logo-x">&nbsp;
+						<img src="/InsideMind/images/instagram.png" alt="logo-ins">
 					</div>
 				</div>
 			</div>

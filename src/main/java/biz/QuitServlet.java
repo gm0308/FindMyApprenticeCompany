@@ -40,6 +40,7 @@ public class QuitServlet extends HttpServlet {
 			
 			if(result > 0) {
 				msg = user.getMemberName() + "님의 회원정보가 삭제되었습니다.";
+				
 				session.removeAttribute("loginOK");
 			}else {
 				msg = user.getMemberName() + "님의 회원정보 삭제가 실패했습니다.";

@@ -44,7 +44,7 @@
 		    color:blue;
 		}
 	</style>
-	<form action="/edu/register" method="post">
+	<form action="/InsideMind/register" method="post">
 		<div class="login_container">
 			<a href="/InsideMind/login/login.jsp" style="margin-left:auto"> < 로그인화면 </a>
 			<a href="/InsideMind/index.jsp" style="margin-left: 185px"> 메인화면 </a>
