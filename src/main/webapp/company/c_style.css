@@ -9,10 +9,6 @@ body,
 html {
     width: 100%;
 }
-.container {
-    width: 100%;
-    margin-bottom: 15%;
-}
 #container_title {
     text-align: center;
     font-size: 48px;
@@ -75,7 +71,7 @@ h1 {
     overflow: hidden; 
 }
 .my-btn-class-47::after { 
-    content: "í™ˆí˜ì´ì§€"; 
+    content: "È¨ÆäÀÌÁö"; 
     position: absolute;
     z-index: -1; 
     transition: all 0.3s ease 0s;

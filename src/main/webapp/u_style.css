@@ -4,7 +4,7 @@
 fieldset {
     width: 40%;
     height: 400px;
-    margin: 0 auto;
+    margin-left : 1000px;
     border: 3px solid #212A3E;
     background-color: #F1F6F9;
 }
@@ -17,7 +17,7 @@ legend {
     border-radius: 14px;
 }
 #memberList_c {
-    margin: 100px 0 200px;
+    margin: 50px 0 50px;
 }
 label {
     display: inline-block;
@@ -32,11 +32,6 @@ label {
     background-color: #212A3E;
     border: 1px solid #212A3E;
     color: #F1F6F9;
-}
-label:hover {
-    background-color: white;
-    border: 1px solid black;
-    color: #212A3E;
 }
 form > input:nth-child(2),
 form > input:nth-child(5),

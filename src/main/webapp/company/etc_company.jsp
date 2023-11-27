@@ -13,7 +13,7 @@
 
 		<div class="container">
         <div class="content">
-            <h1 id="container_title">Etc Companys</h1>
+            <h1 id="container_title">Etc Companies</h1>
             <div class="items">
                 <div class="first_line">
                     <div class="item1 item">

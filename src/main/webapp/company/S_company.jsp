@@ -12,7 +12,7 @@
 <%@ include file="../header.jsp" %>
 		<div class="container">
         <div class="content">
-            <h1 id="container_title">Seongnam Companys</h1>
+            <h1 id="container_title">Seongnam Companies</h1>
             <div class="items">
                 <div class="first_line">
                     <div class="item1 item">

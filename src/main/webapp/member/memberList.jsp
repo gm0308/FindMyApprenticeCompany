@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8">
 <title>FMAC</title>
-<link rel="stylesheet" href="/src/main/webapp/style.css">
+<link rel="stylesheet" href="/InsideMind/style.css">
 </head>
 <body>
     <%@ include file="/header.jsp" %>
