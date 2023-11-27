@@ -20,6 +20,6 @@
 	</form>
 	
 	<br> <br>
-	<a href="./index.jsp"> 처음화면</a>
+	<a href="../index.jsp"> 처음화면</a>
 </body>
 </html>

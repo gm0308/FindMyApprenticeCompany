@@ -74,6 +74,7 @@ h1 {
     margin-left: -2%;
 }
 .item {
+	border: 1px solid black;
     margin-left: 10%;
     margin-top: 2%;
     background-color: #9BA4B5;
@@ -112,7 +113,7 @@ h1 {
     overflow: hidden; 
 }
 .my-btn-class-47::after { 
-    content: "자세한 정보"; 
+    content: "홈페이지"; 
     position: absolute;
     z-index: -1; 
     transition: all 0.3s ease 0s;
@@ -146,6 +147,7 @@ h1 {
     opacity: 0%;
 }
 .expalanation {
+	margin-top : 20%;
     position: relative;
 }
 .exp_background > img {

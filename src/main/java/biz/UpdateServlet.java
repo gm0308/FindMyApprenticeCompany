@@ -20,14 +20,7 @@ public class UpdateServlet extends HttpServlet {
    
     public UpdateServlet() {
         super();
-        
-    
-     
     }
-
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
@@ -49,8 +42,6 @@ public class UpdateServlet extends HttpServlet {
     		response.sendRedirect("/member/memberList.jsp");
     	else
     		out.print("<script> history.back() </script>");
-    	
-		doGet(request, response);
 	}
 
 }
