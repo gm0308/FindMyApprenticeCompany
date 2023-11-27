@@ -1,0 +1,66 @@
+#mu_t {
+    font-size: 2rem;
+}
+fieldset {
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+    border: 3px solid #212A3E;
+    background-color: #F1F6F9;
+}
+legend {
+    margin-left: 30px;
+    padding-left: 24px;
+    width: 260px !important;
+    background-color: #394867;
+    color: #F1F6F9;
+    border-radius: 14px;
+}
+#memberList_c {
+    margin: 100px 0 200px;
+}
+label {
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 40px;
+    font-size: 1em;
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #212A3E;
+    border: 1px solid #212A3E;
+    color: #F1F6F9;
+}
+label:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: #212A3E;
+}
+form > input:nth-child(2),
+form > input:nth-child(5),
+form > input:nth-child(8) {
+    padding-left: 16px;
+    font-size: 1em;
+    width: 260px;
+    height: 40px;
+    border: 0;
+}
+form > input:nth-child(10),
+form > input:nth-child(11) {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #212A3E;
+    color: #F1F6F9;
+}
+form > input:nth-child(10):hover,
+form > input:nth-child(11):hover {
+    background-color: white;
+    border: 1px solid black;
+    color: #212A3E;
+}

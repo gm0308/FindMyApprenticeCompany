@@ -291,6 +291,9 @@ footer > div > div > ul > li{
 	#ml_t {
 		font-size: 2.5em;
 	}
+	#mu_t {
+		font-size: 2rem;
+	}
 	fieldset {
 		width: 40%;
 		height: 300px;
