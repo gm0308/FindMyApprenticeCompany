@@ -14,13 +14,36 @@ public class MemberDAO{
 	public MemberDAO() {
 		
 	}
+	public ArrayList<String> getMemberList() {
+		ArrayList<String> list = new ArrayList<>();
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		String sql = "select member_id from userMember";
+		
+		conn = jdbcUtil.getConnection();
+		try {
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			
+			while(rs.next()) {
+				list.add(rs.getString("member_id"));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			jdbcUtil.close(conn, pstmt, rs);
+		}
+		return list;
+	}
 	public MemberVO getMemberData(String id ) {
 		MemberVO vo = null;
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		String sql = "SELECT * FROM userMember WHERE member_id=?";
-		 
+		
 		try { 
 			conn = jdbcUtil.getConnection();
 			pstmt = conn.prepareStatement(sql);
@@ -99,7 +122,28 @@ public class MemberDAO{
 				e.printStackTrace();
 			}
 			return result;
+		}
+		public int updateMember(String pwd, String id, String name) {
+			int n = 0;
 			
+			Connection conn = null;
+			PreparedStatement pstmt = null;
+			String sql = "update userMember set member_pwd=?, member_name=? where member_id=?";
+			
+			conn = jdbcUtil.getConnection();
+			try {
+				pstmt = conn.prepareStatement(sql);
+				pstmt.setString(1, pwd);
+				pstmt.setString(2, id);
+				pstmt.setString(3, name);
+				n = pstmt.executeUpdate();
+				
+			}catch (SQLException e) {
+				e.printStackTrace();
+			}finally {
+				jdbcUtil.close(conn,pstmt);
+			}
+			return n;
 		}
 		
 	}

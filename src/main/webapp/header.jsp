@@ -56,7 +56,7 @@
 					}else{
 %>
 						<a href="/InsideMind/logout" id="logout"><%= login.getMemberId() %> 님 환영합니다</a>
-						<a href="#" id="">정보수정</a>
+						<a href="/InsideMind/member/memberList.jsp" id="">정보수정</a>
 						<a href="/InsideMind/QuitServlet"id= "quit">회원탈퇴</a>
 <%
 					}
