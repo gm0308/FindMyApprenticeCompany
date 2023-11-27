@@ -123,16 +123,17 @@ public class MemberDAO{
 			}
 			return result;
 		}
-		
+
 		public int updateMember(String id, String pwd, String name) {
 			int n = 0;
 			
 			Connection conn = null;
 			PreparedStatement pstmt = null;
-			String sql = "update userMember set member_pwd=?, member_name=? where member_id=?";
+			String sql = "update userMember set member_pwd=?,member_name=? where member_id=?";
 			
 			conn = jdbcUtil.getConnection();
 			try {
+				
 				pstmt = conn.prepareStatement(sql);
 				pstmt.setString(1,pwd);
 				pstmt.setString(2, name);
