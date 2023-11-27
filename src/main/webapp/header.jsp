@@ -29,10 +29,7 @@
 		<%
 			}
 		%>
-			
-		
-	
-			
+
 			<div class="menu">
 				<ul>
 					<li><a href="/InsideMind/map/map.jsp">지도</a></li>
@@ -50,13 +47,14 @@
 					if(login == null){
 %>
 						<a href="/InsideMind/login/login.jsp" id="login">로그인</a>
-						<a href="/InsideMind/QuitServlet"id= "quit">회원탈퇴</a>
+						<a href="/InsideMind/member/register.jsp" id= "login">회원가입</a>
 						
 <% 	
 					}else{
 %>
-						<a href="/InsideMind/logout" id="logout"><%= login.getMemberId() %> 님 환영합니다</a>
+						<a href="#"><%= login.getMemberId() %> 님 환영합니다</a>
 						<a href="/InsideMind/member/memberList.jsp" id="">정보수정</a>
+						<a href="/InsideMind/logout" id="logout">로그아웃</a>
 						<a href="/InsideMind/QuitServlet"id= "quit">회원탈퇴</a>
 <%
 					}

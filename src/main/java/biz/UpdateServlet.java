@@ -11,9 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import dao.MemberDAO;
 
-/**
- * Servlet implementation class UpdateServlet
- */
 @WebServlet("/update")
 public class UpdateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -41,9 +38,12 @@ public class UpdateServlet extends HttpServlet {
     	if(n>0) 
     		response.sendRedirect("/InsideMind/member/memberList.jsp");
     	else
+
     		out.print("<script> alert('회원 수정에 실패하셨습니다.'); history.back(); </script>");
     	
 		
+    		out.print("<script> history.back() </script>");
+
 	}
 
 }
