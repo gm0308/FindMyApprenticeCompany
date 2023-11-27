@@ -20,14 +20,7 @@ public class UpdateServlet extends HttpServlet {
    
     public UpdateServlet() {
         super();
-        
-    
-     
     }
-
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
@@ -39,18 +32,18 @@ public class UpdateServlet extends HttpServlet {
     	MemberDAO dao = new MemberDAO();
     	int n = 0;
     	
-    	id = request.getParameter("member_id");
-    	pwd = request.getParameter("member_pwd");
-    	name = request.getParameter("member_name");
+    	id = request.getParameter("id");
+    	pwd = request.getParameter("pwd");
+    	name = request.getParameter("name");
     	
-    	n = dao.updateMember(id, pwd, name);
+    	n = dao.updateMember(id,pwd,name);
     	
-    	if(n>0)
-    		response.sendRedirect("/member/memberList.jsp");
+    	if(n>0) 
+    		response.sendRedirect("/InsideMind/member/memberList.jsp");
     	else
-    		out.print("<script> history.back() </script>");
+    		out.print("<script> alert('회원 수정에 실패하셨습니다.'); history.back(); </script>");
     	
-		doGet(request, response);
+		
 	}
 
 }

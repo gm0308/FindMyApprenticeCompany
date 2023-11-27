@@ -9,3 +9,6 @@ select * from userMember order by member_id asc;
 	
 update userMember set member_pwd = '5678', member_name = 'guy' where member_id = 'white';
 select member_id from userMember;
+
+update userMember set member_pwd = '12345', member_name = 'sex' where member_id = 'test';
+select * from userMember;
