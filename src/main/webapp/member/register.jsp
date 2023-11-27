@@ -46,30 +46,19 @@
 	</style>
 	<form action="/InsideMind/register" method="post">
 		<div class="login_container">
-			<a href="/InsideMind/login/login.jsp" style="margin-left:auto"> < 로그인화면 </a>
-			<a href="/InsideMind/index.jsp" style="margin-left: 185px"> 메인화면 </a>
-			<h2> 회원 가입 </h2>
+			<a href="/InsideMind/login/login.jsp" style="margin-left:auto"> login </a>
+			<a href="/InsideMind/index.jsp" style="margin-left: 260px"> menu </a>
+			<h2> New Member </h2>
 		
-			<label><b>아이디</b></label><br>
-			<input type="text" placeholder="아이디를 입력하세요." name="memberId">
+			<label><b>Id</b></label><br>
+			<input type="text" placeholder="Please enter your ID" name="memberId">
 				
-			<label><b>비밀번호</b></label><br>
-			<input type="password" placeholder="비밀번호를 입력하세요." name="memberPwd">
+			<label><b>Pwd</b></label><br>
+			<input type="password" placeholder="Please enter your PWD" name="memberPwd">
 			
-			<label><b>이름</b></label><br>	
-			<input type="text" placeholder="본명을 적으세요." name="name">
+			<label><b>Name</b></label><br>	
+			<input type="text" placeholder="Please enter your Name" name="name">
 			
-			<input type= "submit" value="가입"> &nbsp; &nbsp;
+			<input type= "submit" value="Sign up"> &nbsp; &nbsp;
 		</div>
 	</form>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-	 	
-
-</body>
-</html>

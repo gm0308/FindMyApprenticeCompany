@@ -55,8 +55,8 @@
 			<label><b>Password</b></label>
 			<input type="password" placeholder="Please enter a password" name="pwd">
 			
-			<input type="submit" value="Sign up">
-			<a href="/InsideMind/member/register.jsp"> log in </a>
+			<input type="submit" value="login">
+			<a href="/InsideMind/member/register.jsp"> Sign Up </a>
 			<a href="/InsideMind/index.jsp" style="float:right"> menu </a>
 		</div>
 	</form>
