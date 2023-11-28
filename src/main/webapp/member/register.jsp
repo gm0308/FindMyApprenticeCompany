@@ -1,17 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <style>
+        * {
+            text-decoration: none;
+	        list-style: none;
+        }
 		h2{
 			text-align:center;
 		}
 		form{
-			background-color : #ccc;
+			background-color : #9BA4B5;
 			padding : 10px;
 			margin : 0 auto;
 			width : 400px;
 		}
 		.login_container{
-		    border: 3px solid #f1f1f1;
+		    border: 3px solid #394867;
 		    padding: 20px;
 		}
 		input[type=text], input[type=password], input[type=number]{
@@ -19,12 +23,11 @@
 		    padding: 12px 20px;
 		    margin: 8px 0;	
 		    display: inline-block;
-		    border: 1px solid #ccc;
 		    font-size:15px;
 		    border-radius: 3px;
 		}
 		input[type=submit]{
-		    background-color: #4caf50;
+		    background-color: #394867;
 		    color: white;
 		    padding: 14px 20px;
 		    margin: 10px 0;
@@ -38,17 +41,14 @@
 		a{
 		    text-decoration: none;
 		    color: black;
-		}
-		a:hover{
-		    text-decoration: underline;
-		    color:blue;
+            font-weight: 800;
 		}
 	</style>
 	<form action="/InsideMind/register" method="post">
 		<div class="login_container">
 			<a href="/InsideMind/login/login.jsp" style="margin-left:auto"> login </a>
 			<a href="/InsideMind/index.jsp" style="margin-left: 260px"> menu </a>
-			<h2> New Member </h2>
+			<h2> 회원가입 </h2>
 		
 			<label><b>Id</b></label><br>
 			<input type="text" placeholder="Please enter your ID" name="memberId">
